@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!--
+  A Dev With Purpose - adevwithpurpose.com
+  DRAFT COPY v3 (2026-10-18) - pending Safeer's approval. About is the personal variant.
+  Concept "The Network" v3: Three.js glowing constellation hero, GSAP pinned scenes,
+  real public-work proof section, assistant-chat finale (UI placeholder).
+  No framework, no build step. Mobile + reduced-motion get the static fallback.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Dev With Purpose - AI agents that do real work</title>
+  <meta name="description" content="Safeer Ahmad builds agent memory systems, workflow automations and agentic dev setups for founders and small teams. Scoped, tested, handed over.">
+  <meta property="og:title" content="A Dev With Purpose">
+  <meta property="og:description" content="AI agents that do real work. Memory systems, automations and dev tooling - built, tested, handed over.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://adevwithpurpose.com">
+  <meta property="og:image" content="https://adevwithpurpose.com/assets/og.png?v=3">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#070b18">
+  <link rel="icon" href="assets/favicon.svg?v=3" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png?v=3" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=3">
+  <link rel="preload" href="assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css?v=3">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#top"><span class="brand-mark">&gt;_</span><span class="brand-name">a dev with purpose</span></a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#scene-memory">Work</a>
+      <a href="#proof">Code</a>
+      <a href="#how">Process</a>
+      <a href="#chat">Contact</a>
+    </nav>
+    <p class="header-status"><span class="pulse-dot" aria-hidden="true"></span>available</p>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-canvas" id="hero-canvas" aria-hidden="true"></div>
+    <div class="hero-static" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="kicker">// safeer ahmad &middot; ai agent developer</p>
+      <h1>AI agents that do <span class="accent">real work</span>.</h1>
+      <p class="sub">Memory systems, automations and agent tooling for founders and small teams. Scoped, built and tested in steps - you approve each one.</p>
+      <ul class="hero-chips" aria-label="Quick facts">
+        <li><span class="pulse-dot" aria-hidden="true"></span>available for new projects</li>
+        <li>UTC+5 &middot; works worldwide</li>
+        <li>github.com/adevwithpurpose</li>
+      </ul>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#scene-memory">See the work</a>
+        <a class="btn btn-ghost" href="mailto:hello@adevwithpurpose.com">hello@adevwithpurpose.com</a>
+      </div>
+    </div>
+    <p class="hero-hint" aria-hidden="true">scroll</p>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>agent memory</span><span>workflow automation</span><span>agentic dev setups</span><span>evals &amp; guardrails</span><span>docs &amp; handover</span>
+      <span>agent memory</span><span>workflow automation</span><span>agentic dev setups</span><span>evals &amp; guardrails</span><span>docs &amp; handover</span>
+    </div>
+  </div>
+
+  <!-- SCENE 1: memory -->
+  <section class="scene" id="scene-memory">
+    <div class="scene-pin">
+      <div class="scene-copy">
+        <p class="scene-eyebrow"><span class="scene-num">01</span>what i build</p>
+        <h2>Agent memory systems</h2>
+        <p class="scene-text">Your agents stop forgetting. Context that survives restarts, stays searchable, and comes with tests that prove it.</p>
+        <ul class="scene-list">
+          <li>semantic + keyword recall</li>
+          <li>survives restarts</li>
+          <li>auditable and tested</li>
+        </ul>
+      </div>
+      <div class="scene-visual memory-visual" aria-hidden="true">
+        <div class="frag" data-frag>client prefers weekly demos</div>
+        <div class="frag" data-frag>deploy: static site, git push</div>
+        <div class="frag" data-frag>budget: stays under cap</div>
+        <div class="frag" data-frag>tests must stay green</div>
+        <div class="frag" data-frag>timezone: UTC, always</div>
+        <div class="memory-status" data-memory-status>context lost on restart</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCENE 2: automation -->
+  <section class="scene" id="scene-auto">
+    <div class="scene-pin">
+      <div class="scene-copy">
+        <p class="scene-eyebrow"><span class="scene-num">02</span>what i build</p>
+        <h2>Workflow automation</h2>
+        <p class="scene-text">Repetitive ops work turned into agent workflows that run on their own, escalate when unsure, and report back.</p>
+        <ul class="scene-list">
+          <li>watchers that never sleep</li>
+          <li>human-in-the-loop gates</li>
+          <li>reports you actually read</li>
+        </ul>
+      </div>
+      <div class="scene-visual pipe-visual" aria-hidden="true">
+        <div class="pipe-track">
+          <div class="pipe-stage" data-stage>watch</div>
+          <div class="pipe-stage" data-stage>decide</div>
+          <div class="pipe-stage" data-stage>act</div>
+          <div class="pipe-stage" data-stage>report</div>
+          <div class="pipe-token" data-token></div>
+        </div>
+        <div class="pipe-log" data-pipe-log>08:00 - brief sent &middot; no human needed</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCENE 3: dev -->
+  <section class="scene" id="scene-dev">
+    <div class="scene-pin">
+      <div class="scene-copy">
+        <p class="scene-eyebrow"><span class="scene-num">03</span>what i build</p>
+        <h2>Agentic dev setups</h2>
+        <p class="scene-text">Coding agents wired into your repo with tests, review loops and guardrails. Not vibes.</p>
+        <ul class="scene-list">
+          <li>tests before merge</li>
+          <li>review loops built in</li>
+          <li>no secrets in diffs</li>
+        </ul>
+      </div>
+      <div class="scene-visual dev-visual" aria-hidden="true">
+        <div class="dev-window">
+          <div class="dev-titlebar"><span></span><span></span><span></span></div>
+          <div class="dev-lines">
+            <p class="dev-line" data-devline><em>$</em> agent run task-14</p>
+            <p class="dev-line" data-devline><em>&gt;</em> writing code...</p>
+            <p class="dev-line" data-devline><em>&gt;</em> running tests...</p>
+            <p class="dev-line dev-pass" data-devline><em>&#10003;</em> 24 passed, 0 failed</p>
+            <p class="dev-line dev-guard" data-devline><em>&#9210;</em> guardrail: no secrets in diff</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROOF: real public code -->
+  <section class="proof" id="proof">
+    <p class="section-eyebrow">proof</p>
+    <h2 class="section-title">Public code, real systems</h2>
+    <p class="section-sub">Everything below is on GitHub right now. No client work, no NDA material - just things I built and shipped.</p>
+    <div class="proof-grid">
+      <article class="proof-card proof-feature">
+        <div class="proof-media">
+          <img src="assets/opengrammar-demo.gif" alt="OpenGrammar hotkey demo: text selected in an app is rewritten in place by an LLM" loading="lazy">
+        </div>
+        <div class="proof-body">
+          <h3>OpenGrammar Rewrite Hotkey</h3>
+          <p>Select text in any Windows app - Slack, email, editors - press a hotkey, and it's replaced with a polished rewrite from your own LLM. Works where browser extensions can't.</p>
+          <ul class="tags"><li>AutoHotkey</li><li>Docker</li><li>OpenAI-compatible</li></ul>
+          <a class="proof-link" href="https://github.com/adevwithpurpose/opengrammar-hotkey">view repo &nearr;</a>
+        </div>
+      </article>
+      <article class="proof-card">
+        <div class="proof-body">
+          <h3>This site</h3>
+          <p>The page you're reading: vanilla JS, GSAP scroll scenes and a Three.js hero. No framework, no build step, deployed by git push.</p>
+          <ul class="tags"><li>HTML/CSS</li><li>GSAP</li><li>Three.js</li></ul>
+          <a class="proof-link" href="https://github.com/adevwithpurpose/adewp-site">view repo &nearr;</a>
+        </div>
+      </article>
+      <article class="proof-card">
+        <div class="proof-body">
+          <h3>13 public repos</h3>
+          <p>Agent tooling, LLM gateways, memory experiments and storefront work - the lab notebook is open.</p>
+          <ul class="tags"><li>TypeScript</li><li>Rust</li><li>Liquid</li></ul>
+          <a class="proof-link" href="https://github.com/adevwithpurpose">browse github &nearr;</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- HOW WE WORK -->
+  <section class="how" id="how">
+    <p class="section-eyebrow">process</p>
+    <h2 class="section-title">How we work</h2>
+    <ol class="steps">
+      <li><span class="step-num">01</span><div><h3>Scope</h3><p>We define the outcome and the steps. You approve the plan before anything is built.</p></div></li>
+      <li><span class="step-num">02</span><div><h3>Build</h3><p>I build in steps and demo each one. You approve each step before the next.</p></div></li>
+      <li><span class="step-num">03</span><div><h3>Handover</h3><p>You get the system, the docs and the tests. It runs without me.</p></div></li>
+    </ol>
+    <p class="how-note">Fixed scope per step. No surprise invoices.</p>
+  </section>
+
+  <!-- CHAT FINALE -->
+  <section class="chat" id="chat">
+    <p class="section-eyebrow">contact</p>
+    <h2 class="section-title">Talk to the assistant</h2>
+    <div class="chat-window" id="chat-window">
+      <div class="chat-scroll" id="chat-scroll">
+        <div class="msg msg-bot" data-msg>Hey. I'm the assistant Safeer builds with.</div>
+        <div class="msg msg-bot" data-msg>Got an ops task you keep doing by hand? An agent that keeps forgetting? A repo that needs guardrails?</div>
+        <div class="msg msg-user" data-msg>What would working together look like?</div>
+        <div class="msg msg-bot" data-msg>Scoped steps, a demo after each, and a handover that runs without him. You approve every step.</div>
+        <div class="msg msg-bot msg-cta" data-msg>The real inbox is email: <a href="mailto:hello@adevwithpurpose.com">hello@adevwithpurpose.com</a></div>
+      </div>
+      <form class="chat-input" action="mailto:hello@adevwithpurpose.com" method="get">
+        <input type="text" placeholder="This chat is a preview - email me instead" aria-label="Message preview, email instead">
+        <button type="submit" aria-label="Email instead"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </form>
+    </div>
+    <p class="chat-note">Chat UI is a placeholder. The button opens your mail app.</p>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about wrap" id="about">
+    <p class="section-eyebrow">about</p>
+    <h2 class="section-title">The dev behind it</h2>
+    <p>I&rsquo;m Safeer Ahmad, the dev behind A Dev With Purpose. Mechatronics engineer turned full-stack developer. I build in public: every system on this site has a public repo behind it.</p>
+    <ul class="facts">
+      <li><span>based</span>Pakistan, UTC+5 &middot; remote worldwide</li>
+      <li><span>focus</span>agent memory &middot; automation &middot; dev tooling</li>
+      <li><span>code</span>13 public repos and counting</li>
+      <li><span>contact</span>hello@adevwithpurpose.com</li>
+    </ul>
+    <div class="cta-row">
+      <a class="btn btn-ghost" href="https://github.com/adevwithpurpose">GitHub</a>
+      <a class="btn btn-ghost" href="https://www.youtube.com/@adevwithpurpose">YouTube</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <nav class="footer-links" aria-label="Social">
+      <a href="https://www.youtube.com/@adevwithpurpose">YouTube</a>
+      <a href="https://x.com/adevwithpurpose">X</a>
+      <a href="https://github.com/adevwithpurpose">GitHub</a>
+      <a href="https://www.linkedin.com/in/adevwithpurpose">LinkedIn</a>
+    </nav>
+    <a class="footer-mail" href="mailto:hello@adevwithpurpose.com">hello@adevwithpurpose.com</a>
+  </div>
+</footer>
+
+<script src="assets/js/vendor/gsap.min.js" defer></script>
+<script src="assets/js/vendor/ScrollTrigger.min.js" defer></script>
+<script src="assets/js/main.js?v=3" type="module"></script>
+</body>
+</html>
