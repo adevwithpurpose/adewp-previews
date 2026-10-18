@@ -116,3 +116,7 @@ body.v4 .facts li span { color: var(--accent-2); margin-right: 0.9rem; }
 body.v4 .site-footer { border-top: 1px solid var(--line); }
 body.v4 .footer-mail { font-weight: 600; }
 body.v4 ::selection { background: rgba(99,102,241,0.35); }
+/* v4 increment 3: proof card fixes - media fills cell, no dead strip, no link gap */
+body.v4 .proof-media { align-items: stretch; }
+body.v4 .proof-media img { height: 100%; object-fit: cover; object-position: top center; aspect-ratio: auto; }
+body.v4 .proof-feature .proof-link { margin-top: 0.4rem; }
