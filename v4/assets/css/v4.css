@@ -120,3 +120,4 @@ body.v4 ::selection { background: rgba(99,102,241,0.35); }
 body.v4 .proof-media { align-items: stretch; }
 body.v4 .proof-media img { height: 100%; object-fit: cover; object-position: top center; aspect-ratio: auto; }
 body.v4 .proof-feature .proof-link { margin-top: 0.4rem; }
+body.v4 .footer-name { color: var(--dim); font-size: 0.85rem; font-family: 'Inter', system-ui, sans-serif; }
