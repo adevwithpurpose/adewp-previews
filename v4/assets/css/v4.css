@@ -81,3 +81,38 @@ body.v4 .facts li span { font-family: 'Inter', system-ui, sans-serif; text-trans
 body.v4 .site-footer a { font-family: 'Inter', system-ui, sans-serif; text-transform: none; letter-spacing: 0; font-size: 0.9rem; }
 /* hero hint */
 body.v4 .hero-hint { font-family: 'Inter', system-ui, sans-serif; letter-spacing: 0.3em; font-size: 0.68rem; }
+/* v4 increment 2: scenes, steps, chat, about, footer */
+body.v4 .dev-window, body.v4 .memory-visual, body.v4 .pipe-visual {
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(17,24,46,0.72), rgba(11,17,34,0.6));
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 24px 60px -30px rgba(0,0,0,0.6);
+}
+body.v4 .steps li {
+  border: 1px solid var(--line); border-radius: 16px;
+  background: linear-gradient(180deg, rgba(17,24,46,0.55), rgba(11,17,34,0.45));
+  padding: 1.4rem 1.5rem;
+}
+body.v4 .step-num {
+  font-family: 'JetBrains Mono', monospace;
+  background: linear-gradient(100deg, var(--accent), var(--cyan));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  font-weight: 700;
+}
+body.v4 .how-note { color: var(--dim); }
+body.v4 .chat-window {
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(17,24,46,0.72), rgba(11,17,34,0.6));
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+}
+body.v4 .msg { border-radius: 16px; line-height: 1.5; }
+body.v4 .msg-bot { background: rgba(99,102,241,0.10); border: 1px solid rgba(99,102,241,0.18); }
+body.v4 .msg-user { background: var(--accent); border-radius: 16px 16px 4px 16px; }
+body.v4 .msg-cta { border-color: var(--line-strong); }
+body.v4 .chat-input { border-radius: 12px; }
+body.v4 .chat-input input { font-family: 'Inter', system-ui, sans-serif; }
+body.v4 .facts li { border-bottom: 1px solid var(--line); padding: 0.7rem 0; }
+body.v4 .facts li span { color: var(--accent-2); margin-right: 0.9rem; }
+body.v4 .site-footer { border-top: 1px solid var(--line); }
+body.v4 .footer-mail { font-weight: 600; }
+body.v4 ::selection { background: rgba(99,102,241,0.35); }
